@@ -41,20 +41,19 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "➥ **FRIDAY IS:** `ONLINE`\n\n"
-pm_caption += "➥ **SYSTEMS STATS**\n"
-pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
-pm_caption += "➥ **Python:** `3.7.4` \n"
-pm_caption += f"➥ **Uptime** : `{uptime}` \n"
-pm_caption += "➥ **Database Status:**  `Functional`\n"
-pm_caption += "➥ **Current Branch** : `master`\n"
-pm_caption += f"➥ **Version** : `6.5`\n"
-pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
-pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
-pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
-pm_caption += "➥ **Copyright** : By [StarkGang@Github](GitHub.com/StarkGang)\n"
-pm_caption += "➥ **Check Stats By Doing** `.stat`. \n\n"
-pm_caption += "[🇮🇳 Deploy FridayUserbot 🇮🇳](https://telegra.ph/FRIDAY-06-15)"
+pm_caption = "**Fᵣᵢdₐy ᵢₛ ₒₙₗᵢₙₑ**\n"
+
+pm_caption += f"**M̴y̴ ̴B̴o̴s̴s̴**            : {DEFAULTUSER}\n"
+
+pm_caption += "ᴍʏ ɢʀᴏᴜᴘ          : [ᴡᴇʟᴄᴏᴍᴇ](https://t.me/joinchat/Oq1jlViv1uS2AkOG9MKChw)\n"
+
+pm_caption += "ᴍʏ ᴄʜᴀɴɴᴇʟ     : [ᴡᴇʟᴄᴏᴍᴇ](https://t.me/joinchat/AAAAAEdoBMaQSuvk0xFNCw)\n"
+
+pm_caption += "ʟɪᴄᴇɴꜱᴇ              : [ᴹᴵᵀ ᴸⁱᶜᵉⁿᶜᵉ](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
+
+pm_caption += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ    :  [𝙎𝙩𝙖𝙧𝙠𝙂𝙖𝙣𝙜](GitHub.com/StarkGang)\n"
+
+pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Munnipopz)"
 
 
 @friday.on(friday_on_cmd(pattern=r"alive"))
