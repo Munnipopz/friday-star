@@ -7,7 +7,6 @@ pyseoanalyzer
 pokedex.py
 faker
 deep_translator
-pornhub-api
 countryinfo
 youtube-search-python
 emoji-country-flag
